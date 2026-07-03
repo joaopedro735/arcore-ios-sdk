@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "ARCore", platforms: [.iOS(.v13)],
+  name: "ARCore", platforms: [.iOS(.v15)],
   products: [
     .library(name: "ARCoreCloudAnchors", targets: ["CloudAnchors"]),
     .library(name: "ARCoreGeospatial", targets: ["Geospatial"]),
